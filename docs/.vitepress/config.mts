@@ -4,25 +4,17 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Monologue",
   description: "Digital Nomad Utopia",
+
   themeConfig: {
+    logo: '',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+      { text: 'README', link: '/README' }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Muzhongweiliang/Monologue' }
     ]
   }
 })
