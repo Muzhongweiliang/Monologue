@@ -4,9 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Monologue",
   description: "Digital Nomad Utopia",
+  head: [
+    ['link', { rel: 'icon', href: '/logo.svg' }]
+  ],
 
   themeConfig: {
-    logo: '',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
